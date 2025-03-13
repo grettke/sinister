@@ -1,0 +1,26 @@
+#+title:	Sinister
+#+author:	Positron
+#+email:	contact@positron.solutions
+
+Sinister (Latin for left) is a package for people who prefer to split their windows left and right.  See the package commentary and commands for usage.
+
+** Installation
+The package is not currently on MELPA.
+#+begin_src elisp :eval no
+  ;; using elpaca's with explicit recipe
+  (use-package sinister
+    :ensure (sinister
+             :host github
+             :repo "positron-solutions/sinister")
+    :config
+    (sinister-stillness-mode 1)
+    (sinister-misc-settings))
+
+  ;; With use-package and package-vc integration
+  (use-package sinister
+    :vc (:url "https://github.com/positron-solutions/sinister")
+    :config
+    (sinister-stillness-mode 1)
+    (sinister-misc-settings))
+#+end_src
+This README is a stub to begin the process of open sourcing Sinister.  Stay tuned.  File issues!

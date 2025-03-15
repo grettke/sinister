@@ -144,7 +144,7 @@ One of the most annoying things about preferring `split-window-left' or
 horizontal splits in general is the automatic scrolling that occurs when
 using extremely popular packages like Vertico, Ivy, Helm, basically
 anything but the default completions.  For every single window with a
-window point that will be obsrurred by the minibuffer, the default is to
+window point that will be obscured by the minibuffer, the default is to
 scroll to keep the window on screen, then to scroll to put the window
 back.  A chain of such minibuffer commands will drive you absolutely
 insane with full frame scrolling and different amounts of scroll in
